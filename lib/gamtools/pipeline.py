@@ -58,7 +58,6 @@ def get_middle_value(my_list):
     return sorted(my_list)[len(my_list) // 2]
 
 
-def pretty_resolution(window_size):
     """Convert an integer resolution in base-pairs to a nicely formatted string.
 
     :param int window_size: Integer resolution in base pairs.
